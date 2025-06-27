@@ -32,7 +32,14 @@
     ],
     "profiles": 
     {
-        "defaults": {},
+        "defaults": 
+        {
+            "colorScheme": "Thanatos Dark",
+            "font": 
+            {
+                "face": "JetBrainsMono Nerd Font"
+            }
+        },
         "list": 
         [
             {
