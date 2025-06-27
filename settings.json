@@ -1,0 +1,132 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.FindText",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": {},
+        "list": 
+        [
+            {
+                "colorScheme": "Thanatos Dark",
+                "cursorShape": "vintage",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#1A1A1A",
+            "black": "#000000",
+            "blue": "#579BD5",
+            "brightBlack": "#797979",
+            "brightBlue": "#9CDCFE",
+            "brightCyan": "#2BC4E2",
+            "brightGreen": "#1AD69C",
+            "brightPurple": "#975EAB",
+            "brightRed": "#EB2A88",
+            "brightWhite": "#EAEAEA",
+            "brightYellow": "#E9AD95",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#00B6D6",
+            "foreground": "#EA549F",
+            "green": "#4EC9B0",
+            "name": "Aurelia",
+            "purple": "#714896",
+            "red": "#E92888",
+            "selectionBackground": "#FFFFFF",
+            "white": "#EAEAEA",
+            "yellow": "#CE9178"
+        },
+        {
+            "background": "#1A2B3C",
+            "black": "#65737E",
+            "blue": "#0E9BD1",
+            "brightBlack": "#ACACAC",
+            "brightBlue": "#7899BA",
+            "brightCyan": "#0099AD",
+            "brightGreen": "#0DE1B1",
+            "brightPurple": "#AB43AA",
+            "brightRed": "#D47186",
+            "brightWhite": "#FEF8EC",
+            "brightYellow": "#D8CB32",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#008486",
+            "foreground": "#E09887",
+            "green": "#0099AD",
+            "name": "Thanatos Dark",
+            "purple": "#928BA6",
+            "red": "#CE4559",
+            "selectionBackground": "#FEF8EC",
+            "white": "#FEF8EC",
+            "yellow": "#D8CB32"
+        },
+        {
+            "background": "#F6F6F0",
+            "black": "#36475B",
+            "blue": "#0E9BD1",
+            "brightBlack": "#65737E",
+            "brightBlue": "#7899BA",
+            "brightCyan": "#008A8E",
+            "brightGreen": "#0DE1B1",
+            "brightPurple": "#AB43AA",
+            "brightRed": "#D47186",
+            "brightWhite": "#1A2B3C",
+            "brightYellow": "#EAA221",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#008486",
+            "foreground": "#3F5060",
+            "green": "#008A8E",
+            "name": "Thanatos Light",
+            "purple": "#AB43AA",
+            "red": "#E19887",
+            "selectionBackground": "#0E639C",
+            "white": "#7899BA",
+            "yellow": "#EAA221"
+        }
+    ],
+    "theme": "dark",
+    "themes": []
+}
